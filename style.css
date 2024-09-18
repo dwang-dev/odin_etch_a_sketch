@@ -1,4 +1,32 @@
-.gridContainer {
+#indexPg {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(255, 0, 0, 0.9);
+    padding: 20px;
+}
+
+.pageTitle {
+    font-size: 36px;
+    font-weight: 1000;                                                                                                                                                                                                                                           
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    gap: 25px;
+    background-color: gray;
+}
+.grid {
     display: flex;
     flex-direction: column;
     height: 1000px;
@@ -15,4 +43,28 @@
 .gridSquare {
     flex: 1;
     border: 1px solid black;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 400px;
+}
+
+.gameBtn {
+    background-color: rgb(255, 0, 0, 0.9);
+    border: none;
+    border-radius: 50px;;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;;
+    background-color: rgb(255, 0, 0, 0.9);
+}
+
+.footerTxt {
+    text-decoration: none;
 }
