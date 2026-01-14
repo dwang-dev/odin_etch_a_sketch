@@ -26,6 +26,8 @@ function handleButtonClick(event) {
             removeGrid();
             gridSize = size;
             generateGrid();
+        } else {
+            alert("Invalid size")
         }
     } else if (button.classList.contains("toggleColorModeBtn")) {
         grid.classList.toggle("rainbow");
